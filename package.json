@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "sendUserOp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.7.1",
+    "@account-abstraction/sdk": "^0.6.0",
+    "dotenv": "^16.5.0",
+    "ethers": "5.7"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
